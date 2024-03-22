@@ -19,7 +19,7 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
       {label}
       <style jsx>{`
         button {
-          background-color: red;
+          background-color: ${backgroundColor};
         }
       `}</style>
     </button>
