@@ -9,7 +9,7 @@ export default function Home() {
         <Button primary label="button" size="small" />
         <Button secondary label="button" size="medium" />
         Hello
-        <p>This is a new P to test</p>
+        <p className="text-yellow-800">This is a new P to test</p>
       </div>
     </main>
   );
